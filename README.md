@@ -28,10 +28,10 @@ Follow the matching Canvas directions and existing rubric for the precise requir
 
 Write actual observations in this README.md. Replace placeholders with your results, including failures and limitations. A planned test is not a completed test. Add rows as needed; a check that found no defect should say so honestly. The matching Canvas task defines the work due at this stage.
 
-| Controlled state | Content width | Border-box width | Outside left / right margins | Total horizontal footprint | Prediction and measured result |
-| --- | --- | --- | --- | --- | --- |
-| 240px content-box | [record] | [record] | [record each] | [record] | [explain] |
-| 240px border-box | [record] | [record] | [record each] | [record] | [explain] |
+| Controlled state  | Content width | Border-box width | Outside left / right margins | Total horizontal footprint | Prediction and measured result |
+| ----------------- | ------------- | ---------------- | ---------------------------- | -------------------------- | ------------------------------ |
+| 240px content-box | [record]      | [record]         | [record each]                | [record]                   | [explain]                      |
+| 240px border-box  | [record]      | [record]         | [record each]                | [record]                   | [explain]                      |
 
 ## Display and flexible-card evidence
 
@@ -39,11 +39,11 @@ Block / inline / inline-block comparison: [what changed for the badge and why]
 
 Final flexible-card choices: [sizing, padding, border and margin decisions]
 
-| Check | Actual result / correction / retest |
-| --- | --- |
-| 375px | [record] |
-| 1024px | [record] |
-| CSS validation | [record] |
+| Check          | Actual result / correction / retest |
+| -------------- | ----------------------------------- |
+| 375px          | [record]                            |
+| 1024px         | [record]                            |
+| CSS validation | [record]                            |
 
 ## Independent transfer check
 
@@ -61,9 +61,9 @@ Temporary inspector experiments do not replace the assignment's final saved flex
 
 Write actual observations in this README.md. Replace placeholders with your results, including failures and limitations. A planned test is not a completed test. Add rows as needed; a check that found no defect should say so honestly. The matching Canvas task defines the work due at this stage.
 
-| Action / input / conditions | Prediction before running | Actual before change | My change or none | Actual after / explanation |
-| --- | --- | --- | --- | --- |
-| [specific case] | [prediction] | [observation] | [file / selector / change or none] | [retest] |
+| Action / input / conditions | Prediction before running | Actual before change | My change or none                  | Actual after / explanation |
+| --------------------------- | ------------------------- | -------------------- | ---------------------------------- | -------------------------- |
+| [specific case]             | [prediction]              | [observation]        | [file / selector / change or none] | [retest]                   |
 
 ## Submission checklist
 
@@ -78,3 +78,17 @@ Activity Text Entry remains available only as described in the Canvas directions
 ## Academic integrity and privacy
 
 AI-assisted or AI-generated content is prohibited. Complete and explain your own work under the existing course policy. Do not include keys, credentials, tokens, or private settings. Preserve the supplied license and identify reused material.
+
+## Content-Box
+
+## Border-Box
+
+## Flex-Box
+
+## My Observations, Predictions, and Outcomes.
+
+For the completion of this assignment; I flipped through the HTML and CSS assigned book. In the book; I found the formula for calculating the height of a box being: top margin + top border + top padding + height + bottom padding + bottom border + bottom margin...Under that formula is the formula for calculating the width of a box and that formula is: left margin + left border + left padding + width + right padding + right border + right margin. Now that we know the formula we can plug in all the different fits to a screen to find the ideal size.
+
+Using main.css to style up the webpage; I coded a context-box, a border-box, and flex-box using the instructed sizes. Using what we practice in class I was able to conceptualize every instucted change. I did notice that in a flex box the content would overlap eachother.
+
+I ran the main.css through the css validator. The results generated a congratulations with no error found.
