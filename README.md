@@ -92,3 +92,33 @@ For the completion of this assignment; I flipped through the HTML and CSS assign
 Using main.css to style up the webpage; I coded a context-box, a border-box, and flex-box using the instructed sizes. Using what we practice in class I was able to conceptualize every instucted change. I did notice that in a flex box the content would overlap eachother.
 
 I ran the main.css through the css validator. The results generated a congratulations with no error found.
+
+## 2nd Submission
+
+I redid Week 2's Assignment.
+
+To answer all your question I will begin with sharing that Each Selector in the CSS Stylesheet is associated with an assignment goal.
+
+Listing
+-Article selector - content box
+-Section - border box
+-Aside - Box sizzing
+-nav - inline block
+
+In the developer tools I prompted 375px and 1024px. The only difference I seen between the two one is thin and the other looks page wide.
+
+The book shares the formula for calculating the width of a box is left margin + left border + left padding + width + right padding + right border + right margin.
+
+Article Selector; Content-Box
+-left margin 0 + left border 2 + padding 16 + width 240 + right margin 0 + right border 2 + padding 16 = 276 width
+
+Section Selector - Border Box
+-0+2+16+276+0+2+16=312
+
+Aside Selector - Border Box
+0+2+16+1024+0+2+16=1060
+
+Final Thought
+Considering a width of 375px could be compared to a telephone screen sized webpage. And a 1024px max width can be compared to a tablet screen sized webpage.
+
+Also in consideration of the width is our size of graffics. And when it comes to discriptions the use of selectors, keys, and values to align the content to visual desire.
